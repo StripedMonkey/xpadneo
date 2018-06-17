@@ -914,8 +914,6 @@ static void check_report_behaviour(struct hid_device *hdev, u8 *data,
 	// * create new one like they do in hid_register_report
 	// * add it to output_reports->report_list and array
 
-
-
 	struct hid_report_enum *input_reports
 		= hdev->report_enum + HID_INPUT_REPORT;
 
